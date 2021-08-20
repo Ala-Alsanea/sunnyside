@@ -47,3 +47,10 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+
+  <div class="text-center p-6 space-y-5 ">
+                    <p class="text-lg text-gray-800 font-medium">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+                    <h1 class="text-2xl font-bold font-mono text-gray-900">Emily R.</h1>
+                    <h2 class="text-lg text-gray-800  font-mono font-bold">Marketing Director</h2>
+                </div>
