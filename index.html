@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
+
+    <title> Sunnyside agency landing page</title>
+    <link rel="styleSheet" href="css/public/tailwind.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        header {
+            /* background-image: url(images/desktop/image-header.jpg); */
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        
+        .navBtn {
+            transition: .5s;
+            border-radius: 20px;
+            transition: .25s;
+        }
+        
+        .navBtn:hover {
+            background: rgba(255, 255, 255, 0.308);
+            /* color: #000; */
+            border-radius: 25px;
+            transition: .25s;
+            font-size: 24px;
+        }
+        
+        .navBtn:active {
+            background: #ffffff;
+            color: #000;
+        }
+        
+        #img1,
+        #img2 {
+            transition: .5s;
+            width: 100%;
+            height: 100%;
+        }
+        
+        #img-div1:hover #img1,
+        #img-div2:hover #img2 {
+            transform: rotate(15deg);
+            border-radius: 20px;
+            transition: all .25s;
+            position: absolute;
+        }
+        
+        #div-1 {
+            background-image: url(images/desktop/image-graphic-design.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+        }
+        
+        #div-2 {
+            background-image: url(/images/desktop/image-photography.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+        }
+        
+        #btn1:hover #span1 {
+            background-color: rgb(255, 166, 0);
+            transition: .25s;
+        }
+        
+        #btn2:hover #span2 {
+            background-color: rgb(211, 62, 124);
+            transition: .25s;
+        }
+        
+        #span1,
+        #span2 {
+            transition: .5s;
+        }
+        
+        main {
+            overflow-x: clip;
+        }
+    </style>
+
+
+
+</head>
+
+<body class="">
+    <header class=" py-6 px-0 flex flex-col items-center overflow-hidden relative">
+        <img src="images/desktop/image-header.jpg" alt="" class=" absolute -mt-6 h-full w-full ">
+
+        <div id="" class="   h-10 w-full px-8 flex justify-between  items-center z-10   ">
+
+            <div class="flex h-7  ">
+                <img src="images/logo.svg" alt="" class="inline  ">
+            </div>
+
+            <div id="nav" class="inline  space-x-3   ">
+
+                <a href="" class="navBtn text-white text-xl font-semibold py-2 px-4  ">About</a>
+                <a href="" class="navBtn text-white text-xl font-semibold py-2 px-4  "> Services</a>
+                <a href="" class="navBtn text-white text-xl font-semibold py-2 px-4  ">Projects</a>
+                <a href="" class="navBtn text-white text-xl font-semibold py-2 px-4  ">Contact</a>
+
+            </div>
+        </div>
+
+
+        <div class=" mt-28 z-10">
+            <p class="uppercase text-white font-serif text-5xl font-bold">We are creatives</p>
+        </div>
+
+        <div class="flex  mt-32 z-10 mb-64">
+            <img src="images/icon-arrow-down.svg" alt="" class="  ">
+        </div>
+
+    </header>
+
+    <!-- ############################################################################# -->
+    <main class=" grid grid-cols-2 grid-rows-3 relative z-20 ">
+
+        <div class="p-28 ">
+            <h1 class="text-5xl font-bold   ">Transform your brand ...</h1>
+
+            <p class="mt-10 text-lg">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+
+            <a id="btn1" class="  w-28 text-xl font-bold mt-7  cursor-pointer flex flex-col hover: "> <span class="relative z-1">Learn more</span>
+                <span id="span1" class=" bg-yellow-200 h-2 w-full  -mt-2 rounded block "></span> </a>
+        </div>
+
+
+        <div id="img-div1" class="relative  ">
+            <img id="img1" src="images/desktop/image-transform.jpg" alt="" class="  ">
+        </div>
+
+        <div id="img-div2" class="relative ">
+            <img id="img2" src="images/desktop/image-stand-out.jpg" alt="" class="  ">
+        </div>
+
+        <div class="p-28">
+            <h1 class="text-5xl font-bold   ">Stand out to the right audience...</h1>
+
+            <p class="mt-10 text-lg">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+
+            <a id="btn2" class="  w-28 text-xl font-bold mt-7  cursor-pointer flex flex-col hover: "> <span class="relative z-1">Learn more</span>
+                <span id="span2" class="bg-pink-300 h-2 w-full  -mt-2 rounded block "></span> </a>
+        </div>
+
+
+        <div id="div-1" class="p-32 pt-80 pb-0">
+            <!-- <img src="images/desktop/image-graphic-design.jpg" alt="" class="  "> -->
+            <section class="mt-10">
+                <h1 class="text-3xl text-center font-bold text-gray-800 ">Graphic Design</h1>
+                <p class="mt-10 text-lg text-gray-800 text-center font-medium ">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+            </section>
+
+        </div>
+
+        <div id="div-2" class="p-32 pt-80 pb-0">
+            <!-- <img src="images/desktop/image-photography.jpg" alt="" class="  "> -->
+            <section class="mt-10">
+                <h1 class="text-3xl text-center font-bold text-gray-800 ">Photography</h1>
+                <p class="mt-10 text-lg text-gray-800 text-center font-medium ">Increase your credibility by getting the most stunning, high-quality photos that improve your business image. </p>
+            </section>
+        </div>
+
+
+    </main>
+
+    <!-- ############################################################################# -->
+
+    <section>
+        <div></div>
+        <div></div>
+    </section>
+
+</body>
+
+</html>
