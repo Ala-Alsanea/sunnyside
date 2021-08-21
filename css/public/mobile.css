@@ -1,0 +1,37 @@
+@media(max-width:768px) {
+    .img-header.mobile {
+        display: block;
+        object-position: center;
+    }
+    .img-header.desktop {
+        display: hidden;
+    }
+    .navBtn:hover,
+    .navBtn:active {
+        background: rgba(61, 61, 61, 0.507);
+        /* color: #000; */
+        border-radius: 50px;
+        transition: .25s;
+        font-size: 24px;
+    }
+    #img-div1:hover #img1,
+    #img-div2:hover #img2 {
+        transform: rotate(0deg);
+        border-radius: 0px;
+        transition: all .25s;
+        position: relative;
+    }
+    main {
+        overflow-x: visible;
+    }
+    #div-1 {
+        background-image: none;
+        background-size: 100%;
+    }
+    #div-2 {
+        background-image: none;
+        background-size: 100%;
+    }
+}
+
+@media (max-width:375px) {}

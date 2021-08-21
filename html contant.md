@@ -49,8 +49,68 @@
   </div>
 
 
-  <div class="text-center p-6 space-y-5 ">
+  <!-- #################### -->
+
+
+
+
+  <section class="p-10 hidden lg:block  ">
+
+        <div class="text-center text-2xl mt-20 mb-24 font-medium uppercase ">
+            <h1 class="spacing text-gray-700">Client testimonials</h1>
+        </div>
+
+        <div class="flex flex-col ">
+            <!-- ################################# -->
+
+            <section class="flex justify-evenly  ">
+                <div class="p-9 flex  ">
+                    <div class="overflow-hidden rounded-full  mx-32 ">
+                        <img class="object-center object-cover w-full h-full" src="images/image-emily.jpg" alt="">
+                    </div>
+                </div>
+
+
+
+                <div class="p-9 ">
+                    <div class="overflow-hidden rounded-full  mx-32 ">
+                        <img class="object-center object-cover w-full h-full" src="images/image-thomas.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="p-9 ">
+                    <div class="overflow-hidden rounded-full mx-32 ">
+                        <img class="object-center object-cover w-full h-full " src="images/image-jennie.jpg " alt=" ">
+                    </div>
+                </div>
+
+            </section>
+            <!-- ################################# -->
+
+            <section class="flex justify-between justify-evenly   ">
+
+                <div class="text-center p-6 space-y-5 ">
                     <p class="text-lg text-gray-800 font-medium">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
                     <h1 class="text-2xl font-bold font-mono text-gray-900">Emily R.</h1>
                     <h2 class="text-lg text-gray-800  font-mono font-bold">Marketing Director</h2>
                 </div>
+
+                <div class="text-center p-6 space-y-5 ">
+                    <p class="text-lg text-gray-800 font-medium">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience..</p>
+                    <h1 class="text-2xl font-bold font-mono text-gray-900">Thomas S.</h1>
+                    <h2 class="text-lg text-gray-800  font-mono font-bold">Chief Operating Officer</h2>
+                </div>
+
+                <div class="text-center p-6 space-y-5 ">
+                    <p class="text-lg text-gray-800 font-medium">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+                    <h1 class="text-2xl font-bold font-mono text-gray-900">Jennie F.</h1>
+                    <h2 class="text-lg text-gray-800  font-mono font-bold">Business Owner</h2>
+                </div>
+
+            </section>
+            <!-- ################################# -->
+
+
+        </div>
+    </section>
+    </section>
